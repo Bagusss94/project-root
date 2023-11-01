@@ -12,6 +12,10 @@
             max-width: 800px;
             margin-top: 20px;
         }
+
+        .hem {
+            background-color: aqua;
+        }
     </style>
 </head>
 
@@ -20,7 +24,7 @@
     <div class="container">
         <!-- CARD -->
         <div class="card">
-            <div class="card-header bg-dark text-white">
+            <div class="card-header bg-primary text-white">
                 Data Pegawai
             </div>
             <div class="card-body">
@@ -90,7 +94,7 @@
                     </div>
                 </div>
                 <table class="table">
-                    <thead>
+                    <thead class="hem">
                         <tr>
                             <th>No</th>
                             <th>Nama</th>
